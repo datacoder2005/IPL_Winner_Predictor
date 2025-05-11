@@ -122,7 +122,6 @@ def first_innings_page():
 
 # 🔹 Predictor Page
 def predictor_page():
-    add_bg_local("pic3.jpg")
     st.title("🏏 IPL Match Winner Predictor")
 
     batting_team = st.selectbox("Select Batting Team", sorted(teams))
